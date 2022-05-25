@@ -6,6 +6,9 @@
     background: #000;
     color: white;
   }
+  .text-center{
+    padding: 50px;
+  }
 
   .col-lg-7 {
     padding-top: 100px;
@@ -16,10 +19,14 @@
     padding: 100px 50px 0px 50px;
   }
   .row {
-    height: 600px;
+    height: 500px;
   }
   h1{
     font-size: 46px;
+    color:black;
+  }
+  h3{
+    color:black;
   }
   span {
     color: #8c8c8c;
