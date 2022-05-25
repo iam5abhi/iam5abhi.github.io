@@ -1,0 +1,59 @@
+*{
+    font-family: Georgia;
+}
+
+.container-fluid {
+    background: #000;
+    color: white;
+  }
+
+  .col-lg-7 {
+    padding-top: 100px;
+  }
+  .responsive-avatar img {
+    width: 400px;
+    height: 400px;
+    padding: 100px 50px 0px 50px;
+  }
+  .row {
+    height: 600px;
+  }
+  h1{
+    font-size: 46px;
+  }
+  span {
+    color: #8c8c8c;
+  }
+
+  .text text-center {
+    font-size: 50px;
+  }
+  #button {
+    border-radius: 50px;
+  }
+
+  #image {
+    background: white;
+    width: 104px;
+    border-radius: 17px;
+    border: 4px solid white;
+  }
+  
+
+  @media only screen and (max-width: 600px) {
+          h1{
+            font-size: 30px ;
+          }
+
+    .row {
+        height: 800px;
+      }
+      .banner_content.bg-dark {
+        text-align: center ;
+      }
+      .home_right_img img {
+        width: auto;
+        height: auto;
+        padding: 0;
+      }
+  }
